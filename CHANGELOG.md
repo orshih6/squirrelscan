@@ -17,10 +17,6 @@ How it works:
 
 ## [Unreleased]
 
-### Added
-
-- Credit top-ups above $50 earn bonus credits on a smooth curve, to 20% at $1,000 (`topupQuote`, `topupBonusSchedule` and `TOPUP_BONUS_CURVE` in `@squirrelscan/core-contracts`). Base and bonus credits are returned separately. The docs list the schedule.
-
 ## v0.0.174 (2026-11-11)
 
 Reports say why a rule did not give a verdict (JSON schema 1.9), `squirrel audit` has one exit code precedence with the outcome in the JSON and LLM reports, `--resume` says why it started a new crawl, an expired login is called out, settings writes no longer lose each other, and five rules stop flagging hidden, presentational and symbol-only content.
